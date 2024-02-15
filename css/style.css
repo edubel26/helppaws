@@ -1,0 +1,48 @@
+:root {
+	--theme-color: hsl(0, 0%, 92%); /*si lo cambiamos podemos cambiar el fondo de color*/
+	--primary-color: #8C8C8C;
+	--secondary-color: #2AAA5C;
+	--text-color-inverse: white;
+	--text-color: black;
+	--navbar-shallow-color: #e5e5e5;
+	--menu-mobile-background-color: #8E8E8E;
+	--patica-color: #2AAA5C; 
+	--naranja-color: #E95A0C;
+	--fondo-interior: #dddddd;
+  }
+  
+
+  body {
+	font-family: 'Barlow Condensed', sans-serif;
+	background: radial-gradient(ellipse closest-side,#f9f9fa 50% 70px,rgb(212, 212, 212));
+	background-repeat: no-repeat ;
+	color: var(--text-color);
+	padding-top: 80px;
+	padding-bottom: 203.5px;
+  }
+  
+  a {
+	text-decoration: none;
+	color: var(--text-color);
+  }
+  
+  .horilzontal-padding{
+	padding-left: 25px ;
+	padding-right: 25px;
+  }
+
+  .vertical-padding{
+	padding-top: 25px ;
+	padding-bottom: 25px;
+  }
+  @media(min-width:950px){
+	.horilzontal-padding{
+		padding-left: 70px ;
+		padding-right: 70px;
+	  }
+	
+	  .vertical-padding{
+		padding-top: 70px ;
+		padding-bottom: 70px;
+	  }
+  }

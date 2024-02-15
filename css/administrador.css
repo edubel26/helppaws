@@ -1,0 +1,95 @@
+.segundo-fondo{
+    background-color:var(--fondo-interior);
+	border-radius: 20px;
+	font-family: 'Barlow Condensed', 'sans-serif';
+	margin-left: 150px;
+	margin-right: 150px;
+  font-size: 18px;
+  border-radius: 14px;
+  padding: 25px;
+  display: grid;
+  gap: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+
+.profile-info1 {
+  margin-bottom: 25px;
+}
+
+.profile-img1 {
+  width: 80%;
+  max-width: 300px;
+  margin-left: -80px;
+  border-radius: 10px;
+}
+
+.profile1 {
+  text-align: center;
+}
+
+.profile-title1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--primary-color);
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.profile-details1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 950px) {
+  .segundo-fondo{
+
+    font-size: 20px;
+    padding: 70px;
+    max-width: 980px;
+    margin: 0 auto;
+    box-sizing: border-box;
+	
+
+}
+
+  
+  .profile-info1 {
+    margin-bottom: 0px;
+  }
+  
+  .profile-img1 {
+    width: 90%;
+    max-width: 400px;
+    
+  }
+  
+  .profile1 {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .profile-title1 {
+    font-size: 40px;
+  }
+  
+  .profile-details1 {
+    font-size: 19px;
+  
+  }
+  
+ 
+}
+
+

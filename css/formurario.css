@@ -1,0 +1,153 @@
+
+.logo-menu{
+  display: flex;
+  padding: 40px 0;
+  margin: 0 auto;
+  max-width: 980px;
+  }
+  .logo-menu {
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+
+footer{
+  clear:both;
+  padding-top:170px;
+}
+footer p{
+  font:0.5cm Georgia, "Times New Rman", Times, Serif;
+  color: #999999;
+  margin:50px 8px;
+  text-align:center;
+}
+	
+.form-register .h2 {
+  text-align: left;
+}
+	.form-register {
+  text-align: center;
+	width: 500px;
+	background: #E5E5E5;
+	padding: 30px;
+	margin: auto;
+	margin-top: 5px;
+	border-radius: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #999;
+	box-shadow: 7px 13px 37px #999;
+	
+	}
+	
+	.form-register h4 {
+	   font-size: 22px;
+	   margin-bottom: 20px;
+	}
+	
+	.controls {
+	  width: 100%;
+	  background: #ffffff;
+	  padding: 1px;
+	  border-radius: 4px;
+	  margin-bottom: 16px;
+	  border: 1px solid #eee9e9;
+	  font-family: 'Barlow Condensed', sans-serif;
+	  font-size: 18px;
+	}
+  select  {
+	  width: 100%;
+	  background: #ffffff;
+	  padding: 1px;
+	  border-radius: 4px;
+	  margin-bottom: 16px;
+	  border: 1px solid #eee9e9;
+	  font-family: 'Barlow Condensed', sans-serif;
+	  font-size: 18px;
+	}
+	
+	.form-register p {
+	 height: 40px;
+	 
+	 font-size: 18px;
+	 line-height: 40px;
+	}
+	
+	.form-register a {
+	color: rgb(0, 38, 255);
+	text-decoration: none;
+	}
+	
+	
+	.form-register a:hover {
+		color: rgb(0, 38, 255);
+		text-decoration: underline;
+	}
+	
+	.form-register .botons {
+		width: 40%;
+		background: #8E8E8E;
+		border: none;
+		padding: 12px;
+		color: white;
+		margin: 52px 0;
+		font-size: 16px;
+		border-radius: 20px;
+	
+	}
+.pie-pag{
+  text-align: center;
+  padding: 50px;
+}
+    
+@media(max-width:950px){
+  .logo-menu{
+    display: flex;
+    padding: 40px 0;
+    margin: 0 auto;
+    max-width: 980px;
+    }
+  
+    .form-register {
+    text-align: center;
+    width: 300px;
+    background: #E5E5E5;
+    padding: 30px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #999;
+    box-shadow: 7px 5px 10px #999;
+    
+    }
+    
+    .controls {
+      width: 100%;
+      background: #ffffff;
+      padding: 1px;
+      border-radius: 2px;
+      margin-bottom: 12px;
+      border: 1px solid #eee9e9;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 18px;
+    }
+    
+    .form-register p {
+     height: 40px;
+     font-size: 15px;
+     line-height: 40px;
+    }
+    
+    .form-register .botons {
+      width: 40%;
+      padding: 10px;
+      color: white;
+      margin: 52px 0;
+      font-size: 15px;
+      border-radius: 10px;
+    
+    }
+  }
+
+
+	

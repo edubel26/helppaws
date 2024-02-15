@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.contenedor{
+    background-color:transparent;
+    text-align: center;
+	width: 550px;
+	padding: 30px;
+	margin: auto;
+	margin-top: -20px;
+	font-family: 'Barlow Condensed', sans-serif
+}
+.contenedor img{
+    width: 200px ;
+    height: 200px;
+}
+.contenedor-botones{
+    width: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: center;
+    
+}
+
+
+figure img:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+
+footer{
+    clear:both;
+    padding-top: 20px;
+}
+footer p{
+    font:0.5cm Georgia, "Times New Rman", Times, Serif;
+    color: #999999;
+    margin:50px 8px;
+    text-align:center;
+}
+
+@media (max-width:950px) {
+    .contenedor img{
+        width: 130px ;
+        height: 130px;
+    }
+    .contenedor{
+        background-color:transparent;
+        text-align: center;
+        width: 400px;
+        padding: 30px;
+
+    }
+}

@@ -1,0 +1,25 @@
+body {
+	font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+ a .entrada::after {
+    content: "dsdsds";
+}
+.texto{
+text-align: center;     
+margin-top: 25px;
+padding:100px;
+
+}
+.pie_de_pagina{
+
+    text-align: center;
+    padding: 8%;
+    margin-top: 20px;
+}
+
+@media(min-width: 950px){
+    body { 
+        font-size: 30px;
+    }
+}
